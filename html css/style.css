@@ -1,6 +1,11 @@
 p{
     font-weight:bold;
-    color: green;
+    font-family: Arial ;
+    font-style: italic;
+    font-size: 50px;
+    /*font-variant: small-caps;*/
+    text-transform: uppercase;
+
 }
 .orange{
     color: orange;
