@@ -120,6 +120,7 @@ table caption{
     height: 200px;
     margin-left: 50px;
     background-color: darkorchid;
+    transition: background-color 2s, width 2s;
 }
 .block3:hover{
     width: 300px;
