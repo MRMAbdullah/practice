@@ -109,3 +109,21 @@ table caption{
      background-color: cyan;
      float: right;
  }
+ .height{
+     height: 300px;
+ }
+ .clear{
+     clear: both;
+ }
+.block3{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    background-color: darkorchid;
+}
+.block3:hover{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    background-color: darkslategray;
+}
