@@ -95,3 +95,17 @@ table caption{
      background-color: cadetblue;
      display: block;
  }
+ /* float */
+ .block1{
+     width: 200px;
+     height: 200px;
+     background-color: chartreuse;
+     float: left;
+     margin-right: 15px;
+ }
+ .block2{
+     width: 200px;
+     height: 200px;
+     background-color: cyan;
+     float: right;
+ }
