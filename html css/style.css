@@ -65,7 +65,7 @@ table caption{
 
     margin-top: 50px;
     margin-left: 50px;
-    padding: 25px;
+    padding: 5px 10px 15px 20px;
 }
 .mydiv2{
     width: 300px;
@@ -75,3 +75,13 @@ table caption{
     margin-top: 50px;
     margin-left: 50px;
 }
+ /*********/
+ #wrapper p{
+     color: chocolate;
+     font-size: 20px;
+ }
+ /*
+ #wrapper>p{
+     color: chocolate;
+
+ }*/
