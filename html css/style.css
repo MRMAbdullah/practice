@@ -2,7 +2,7 @@ p{
     font-weight:bold;
     font-family: Arial ;
     font-style: italic;
-    font-size: 50px;
+    font-size: 14px;
     /*font-variant: small-caps;*/
     text-transform: uppercase;
 
@@ -85,3 +85,9 @@ table caption{
      color: chocolate;
 
  }*/
+ #overflow p{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(20, 65, 110);
+    overflow: scroll;
+ }
