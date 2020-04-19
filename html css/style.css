@@ -37,10 +37,22 @@ background-size:250px 150px;
 table{
     width: 650px;
     text-align: center;
+    margin: 50px auto;
+    background-color: #ddd;
 }
-.table{
+table, td, th{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.head{
     background-color: indigo;
 }
 .table-left{
     text-align: left;
+}
+.abdul{
+    background-color: khaki;
+}
+table caption{
+    background-color:#ddd;
 }
