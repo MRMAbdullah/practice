@@ -36,4 +36,11 @@ background-size:250px 150px;
 */
 table{
     width: 650px;
+    text-align: center;
+}
+.table{
+    background-color: indigo;
+}
+.table-left{
+    text-align: left;
 }
