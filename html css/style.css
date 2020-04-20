@@ -188,23 +188,3 @@ label{
     cursor: pointer;
 }
 /*Gradient Property*/
-.linear{
-    width: 800px;
-    height: 150px;
-
-    background: linear-gradient(to right, blue, orange, green, yellow);
-    -webkit-background: linear-gradient(right , blue, orange, green, yellow);
-    -moz-background: linear-gradient(right , blue, orange, green, yellow);
-    -ms-background: linear-gradient(to , blue, orange, green, yellow);
-    -o-background: linear-gradient(right , blue, orange, green, yellow);
-}
-.radial{
-    width: 500px;
-    height: 500px;
-
-    background: radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
-    -webkit-background: radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
-    -moz-background: radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
-    -ms-background: radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
-    -o-background: radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
-}
