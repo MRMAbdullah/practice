@@ -192,9 +192,9 @@ label{
     width: 800px;
     height: 150px;
 
-    background: linear-gradient(to , blue, orange, green, yellow);
-    -webkit-background: linear-gradient(to , blue, orange, green, yellow);
-    -moz-background: linear-gradient(to , blue, orange, green, yellow);
+    background: linear-gradient(to right, blue, orange, green, yellow);
+    -webkit-background: linear-gradient(right , blue, orange, green, yellow);
+    -moz-background: linear-gradient(right , blue, orange, green, yellow);
     -ms-background: linear-gradient(to , blue, orange, green, yellow);
-    -o-background: linear-gradient(to , blue, orange, green, yellow);
+    -o-background: linear-gradient(right , blue, orange, green, yellow);
 }
