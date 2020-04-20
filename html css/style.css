@@ -26,6 +26,12 @@ span{
 }
 body{
     background-image: url("img/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: 1265px 910px;
+    background-attachment: fixed;
+}
+.bg{
+    background-image: url("img/flower.jpg");
     background-size: cover;
 }
 /*
