@@ -172,3 +172,18 @@ input[type="submit"]{
 label{
     color: darkorange;
 }
+/*button*/
+.mybtn{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    color: darkturquoise;
+    transition: all 1s ease;
+}
+.mybtn:hover{
+    color: forestgreen;
+    background: gray;
+    cursor: pointer;
+}
