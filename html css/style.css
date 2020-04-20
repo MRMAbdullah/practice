@@ -149,3 +149,6 @@ table caption{
     -ms-transform: scale(1.5,2);
     -o-transform: scale(1.5,2);
 }
+ul{
+    list-style-type: square;
+}
