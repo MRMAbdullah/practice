@@ -187,3 +187,14 @@ label{
     background: gray;
     cursor: pointer;
 }
+/*Gradient Property*/
+.linear{
+    width: 800px;
+    height: 150px;
+
+    background: linear-gradient(to , blue, orange, green, yellow);
+    -webkit-background: linear-gradient(to , blue, orange, green, yellow);
+    -moz-background: linear-gradient(to , blue, orange, green, yellow);
+    -ms-background: linear-gradient(to , blue, orange, green, yellow);
+    -o-background: linear-gradient(to , blue, orange, green, yellow);
+}
