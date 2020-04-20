@@ -120,6 +120,11 @@ table caption{
     height: 200px;
     margin-left: 50px;
     background-color: darkorchid;
+
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
     transition: all 2s ease;
 }
 .block3:hover{
@@ -131,5 +136,10 @@ table caption{
     /*transform:rotate(360deg);*/
 	/*transform:skewX(20deg);*/
     /*transform:skewY(20deg);*/
+
     transform: scale(1.5,2);
+    -webkit-transform: scale(1.5,2);
+    -moz-transform: scale(1.5,2);
+    -ms-transform: scale(1.5,2);
+    -o-transform: scale(1.5,2);
 }
