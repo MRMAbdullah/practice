@@ -208,3 +208,27 @@ label{
     background: -ms-radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
     background: -o-radial-gradient(blue 20%, green 40%, yellow 60%, black 80%, yellow 100% );
 }
+/*animation*/
+.animation{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    -webkit-animation-name: abdul;
+    animation-name: abdul;
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+
+    -webkit-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+}
+
+@-webkit-keyframes abdul{
+    form{background-color: green;}
+    to{background-color: hotpink;}
+}
+@keyframes abdul{
+    form{background-color: green;}
+    to{background-color: hotpink;}
+}
