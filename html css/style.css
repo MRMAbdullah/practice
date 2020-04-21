@@ -232,3 +232,37 @@ label{
     form{background-color: green;}
     to{background-color: hotpink;}
 }
+.animation1{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    -webkit-animation-name: abdullah;
+    animation-name: abdullah;
+
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+
+    -webkit-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes abdullah{
+    0%{ background-color: green; }
+    20%{ background-color: blue; }
+    40%{ background-color: yellow; }
+    60%{ background-color: black; }
+    80%{ background-color: orange; }
+    100%{ background-color: green; }
+}
+@keyframes abdullah{
+    0%{ background-color: green; }
+    20%{ background-color: blue; }
+    40%{ background-color: yellow; }
+    60%{ background-color: black; }
+    80%{ background-color: orange; }
+    100%{ background-color: green; }
+}
