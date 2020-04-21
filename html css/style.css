@@ -246,3 +246,7 @@ label{
     75%{ left: 0; top: 200px; }
     100%{ left: 0; top: 0; }
 }
+/*video*/
+video{
+    width: 1000px;
+}
