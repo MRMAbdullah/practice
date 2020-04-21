@@ -225,11 +225,11 @@ label{
 }
 
 @-webkit-keyframes abdul{
-    form{background-color: green;}
+    from{background-color: green;}
     to{background-color: hotpink;}
 }
 @keyframes abdul{
-    form{background-color: green;}
+    from{background-color: green;}
     to{background-color: hotpink;}
 }
 .animation1{
