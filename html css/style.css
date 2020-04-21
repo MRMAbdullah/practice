@@ -1,3 +1,4 @@
+*{margin: 0;padding: 0;}
 p{
     font-weight:bold;
     font-family: Arial ;
@@ -254,4 +255,41 @@ video{
     width: 600px;
     height: 500px;
     border: 2px solid green;
+}
+/*3 collams*/
+#wrap1{
+    width: 960px;
+    margin: 50px auto;
+}
+.box {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.nomargn{
+    margin-right: 0;
+}
+.box img{
+    width: 300px;
+    height: 150px;
+}
+.box h2{
+    color: orange;
+}
+.box p{
+    text-align: justify;
+}
+.box a{
+    text-decoration: none;
+    background-color: orange;
+    color: red;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 3px 0;
+    transition: all 1s ease;
+}
+.box a:hover{
+    background: #000;
+    color: #fff;
 }
