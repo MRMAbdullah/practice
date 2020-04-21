@@ -227,33 +227,23 @@ label{
     width: 150px;
     height: 150px;
     background-color: green;
+    position: relative;
 
-    -webkit-animation-name: abdullah;
-    animation-name: abdullah;
+    animation: abdullah 2s ease 1s infinite normal none;
+/*
+    animation-direction: alternate;
+    animation-direction: reverse;
+    animation-direction: inherit;
+    animation-direction: normal;
+    animation-direction: initial;
+*/
 
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-
-    -webkit-animation-iteration-count: 5;
-    animation-iteration-count: 5;
-
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
 }
 
-@-webkit-keyframes abdullah{
-    0%{ background-color: green; }
-    20%{ background-color: blue; }
-    40%{ background-color: yellow; }
-    60%{ background-color: black; }
-    80%{ background-color: orange; }
-    100%{ background-color: green; }
-}
 @keyframes abdullah{
-    0%{ background-color: green; }
-    20%{ background-color: blue; }
-    40%{ background-color: yellow; }
-    60%{ background-color: black; }
-    80%{ background-color: orange; }
-    100%{ background-color: green; }
+    0%{ left: 0; top: 0; }
+    25%{ left: 200px; top: 0; }
+    50%{ left: 200px; top: 200px; }
+    75%{ left: 0; top: 200px; }
+    100%{ left: 0; top: 0; }
 }
