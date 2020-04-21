@@ -213,24 +213,15 @@ label{
     width: 150px;
     height: 150px;
     background-color: green;
+    position: relative;
 
-    -webkit-animation-name: abdul;
-    animation-name: abdul;
-
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-
-    -webkit-animation-iteration-count: 5;
-    animation-iteration-count: 5;
+    animation: abdul 2s ease 1s infinite alternate none;
+    -webkit-animation: abdul 2s ease 1s infinite alternate none;
 }
 
-@-webkit-keyframes abdul{
-    from{background-color: green;}
-    to{background-color: hotpink;}
-}
 @keyframes abdul{
-    from{background-color: green;}
-    to{background-color: hotpink;}
+    from{left: 0;}
+    to{left: 200px;}
 }
 .animation1{
     width: 150px;
