@@ -305,7 +305,7 @@ video{
 #menu li{
     float: left;
     border-right: 1px solid green;
-    border-bottom: 2px solid orchid;
+    position: relative;
 }
 #menu li:last-child{
     border-right: none;
@@ -320,4 +320,21 @@ video{
 }
 #menu li a:hover{
     background: orange;
+}
+#menu li ul{
+    list-style-type: none;
+    position: absolute;
+    left: -999999px;
+}
+#menu li:hover ul{
+    left: 0;
+}
+#menu li ul li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid green;
+    width: 200px;
+}
+#menu li ul li:last-child{
+    border-bottom: none;
 }
