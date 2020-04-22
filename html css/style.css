@@ -296,16 +296,23 @@ video{
 /*menu*/
 #menu{
     width: 960px;
-    margin: 50px;
+    margin: 50px auto;
+    list-style-type: none;
 }
 #menu li{
-    display: inline;
+    float: left;
+    border-right: 1px solid green;
+    border-bottom: 2px solid orchid;
+}
+#menu li:last-child{
+    border-right: none;
 }
 #menu li a{
     color: #fff;
     text-decoration: none;
     background: black;
     padding: 10px 20px;
+    display: block;
 }
 #menu li a:hover{
     background: orange;
