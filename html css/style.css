@@ -298,6 +298,9 @@ video{
     width: 960px;
     margin: 50px auto;
     list-style-type: none;
+    background: black;
+    border-bottom: 2px solid orchid;
+    min-height: 38px;
 }
 #menu li{
     float: left;
@@ -313,6 +316,7 @@ video{
     background: black;
     padding: 10px 20px;
     display: block;
+    transition: all 0.4s ease;
 }
 #menu li a:hover{
     background: orange;
