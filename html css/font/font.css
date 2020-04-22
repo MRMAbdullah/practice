@@ -5,5 +5,12 @@
     src: url("WendyLPStd-Medium.eot") format("eot"),
     url("WendyLPStd-Medium.woff") format("woff"),
     url("WendyLPStd-Medium.ttf") format("truetype"),
-    url("WendyLPStd-Medium.svg") format("svg");
+    url("WendyLPStd-Medium.svg#WendyLPStd-Medium") format("svg");
+}
+@font-face{
+    font-family: WendyLPStd-Medium;
+    src: url("SolaimanLipi.eot") format("eot"),
+    url("SolaimanLipi.woff") format("woff"),
+    url("SolaimanLipi.ttf") format("truetype"),
+    url("SolaimanLipi.svg#SolaimanLipi") format("svg");
 }
