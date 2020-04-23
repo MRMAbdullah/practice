@@ -18,3 +18,46 @@ body{
 #header p{
     color: #988420;
     font-family: arial;
+}
+#nav{
+    background-color: #FFFFFF;
+    border-bottom: 5px solid #6B710E;
+    height: 38px;
+}
+#nav ul{
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+#nav ul li{
+    float: left;
+    border-right: 1px solid #6B710E;
+    position: relative;
+}
+#nav ul li:last-child{
+    border-right: none;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: #7A7F25;
+    display: block;
+    padding: 10px 20px;
+}
+#nav ul li a:hover{
+    color: #fff;
+    background-color: #6B710E;
+}
+#nav ul li ul{
+    position: absolute;
+    left: -99999px;
+    background: #FFFFFF;
+    border-top: 5px solid #6B710E;
+}
+#nav ul li:hover ul{
+    left: 0;
+}
+#nav ul li ul li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid #6B710E;
+    width: 200px;
+}
