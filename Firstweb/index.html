@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First website Make</title>
+    <link rel="stylesheet" href="../html css/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../html css/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../html css/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../html css/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../html css/css/nivo-slider.css" type="text/css" media="screen" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,7 +41,17 @@
         </nav>
         <section>
             <div id="slider_wrap">
-                <img src="img/flower.jpg" alt="flower">
+                <div class="slider-wrapper theme-dark">
+                    <div id="slider" class="nivoSlider">
+                        <img src="../html css/img/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                        <img src="../html css/img/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+                        <img src="../html css/img/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                        <img src="../html css/img/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                    </div>
+                    <div id="htmlcaption" class="nivo-html-caption">
+                        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+                    </div>
+                </div>
             </div>
         </section>
         <div id="content_wrapper">
@@ -92,6 +108,12 @@
         </footer>
     </div>
 
-
+    <script type="text/javascript" src="../html css/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../html css/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 </body>
 </html>

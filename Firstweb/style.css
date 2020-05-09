@@ -61,10 +61,7 @@ body{
     border-bottom: 1px solid #6B710E;
     width: 200px;
 }
-#slider_wrap img{
-    width: 960px;
-    vertical-align: middle;
-}
+#slider_wrap{}
 #content_wrapper{
     background-color: #FFFFFF;
     overflow: hidden;
