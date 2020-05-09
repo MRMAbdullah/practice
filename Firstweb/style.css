@@ -25,6 +25,7 @@ body{
     height: 38px;
 }
 #nav ul{
+    z-index: 999;
     list-style-type: none;
     background-color: #FFFFFF;
 }
