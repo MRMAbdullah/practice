@@ -117,3 +117,15 @@ body{
 
     color: #FFFFFF;
 }
+
+
+
+/*inside*/
+.single_post img{
+    width: 450px;
+    margin:5px 50px;
+}
+.single_post p{
+    margin-top: 10px;
+    text-align: justify;
+}
